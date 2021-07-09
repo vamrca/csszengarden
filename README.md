@@ -1,8 +1,8 @@
 # CSS Zen Garden: The Beauty of CSS Design
 
-> [Your name]
+> [America Yanakom]
 >  
-> [Your ID]
+> [6110451037]
 
 ## Task
 
