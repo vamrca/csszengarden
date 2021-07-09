@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Tourney:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC&family=Permanent+Marker&display=swap");
+.intro {
+  background-image: url("./img/bg1.jpeg");
+  background-size: cover;
+  padding: 5%;
+  text-align: center;
+}
+
+#zen-supporting {
+  background-image: url("./img/bg2.jpg");
+  background-size: cover;
+  padding: 5%;
+}
+
+.sidebar {
+  background-image: url("./img/bg3.jpg");
+  background-size: cover;
+  padding: 5%;
+  font-family: 'Encode Sans SC';
+  font-size: 25px;
+  color: white;
+}
+
+h1 {
+  font-family: 'Encode Sans SC';
+  font-size: 150px;
+  color: white;
+  text-shadow: 4px 3px 0px #7A7A7A;
+  text-shadow: -4px 3px 0 #e914bb, -14px 7px 0 #0a0e27;
+}
+
+h2 {
+  font-family: 'Encode Sans SC';
+  font-size: 70px;
+  color: white;
+  text-shadow: 4px 3px 0px #7A7A7A;
+}
+
+h3 {
+  font-family: 'Encode Sans SC';
+  font-size: 50px;
+  color: white;
+  text-shadow: 4px 3px 0px #7A7A7A;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  font-family: 'Encode Sans SC';
+  font-size: 25px;
+  color: white;
+}
+
+a {
+  font-family: 'Encode Sans SC';
+  font-size: 30px;
+  color: white;
+}
+
+a:hover {
+  color: #ffe600;
+  opacity: 0.3;
+}
+/*# sourceMappingURL=style.css.map */
