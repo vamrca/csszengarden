@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Tourney:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC&family=Permanent+Marker&display=swap');
+
+$special_color : rgb(255, 255, 255);
+
+@mixin head ($size){
+    font-family: 'Encode Sans SC';
+    font-size: $size;
+    color:white;
+    text-shadow: 4px 3px 0px #7A7A7A;
+}
+
+@mixin font($size,) {
+    font-family: 'Encode Sans SC';
+    font-size: $size;
+    color:white;
+}
+
+@mixin makealign($align) {
+    text-align: $align;
+}
+
+@mixin backgroundset($background) {
+    background-image: url($background);
+    background-size: cover;
+    padding: 5%;
+}
+
+.intro{
+    @include backgroundset("./img/bg1.jpeg");
+    @include makealign(center);
+}
+
+#zen-supporting{
+    @include backgroundset("./img/bg2.jpg");
+}
+
+.sidebar{
+    @include backgroundset("./img/bg3.jpg");
+    @include font(25px);
+}
+
+h1{
+    @include head(150px);
+    text-shadow: -4px 3px 0 #e914bb, -14px 7px 0 #0a0e27;
+}
+h2{
+    @include head(70px);
+}
+
+h3{
+    @include head(50px);
+}
+
+body{
+    margin: 0;
+}
+
+p{
+    @include font(25px);
+}
+
+a{
+    @include font(30px);
+}
+
+a:hover{
+    color:rgb(255, 230, 0);
+    opacity: 0.3;
+}
